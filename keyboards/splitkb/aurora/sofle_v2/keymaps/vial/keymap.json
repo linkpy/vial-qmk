@@ -2,6 +2,7 @@
     "keyboard": "splitkb/aurora/sofle_v2",
     "keymap": "default",
     "version": 1,
+    "host_language": "french",
     "layout": "LAYOUT",
     "layers": [
         [
@@ -32,6 +33,12 @@
             "XXXXXXX"   , "RGB_MOD"   , "RGB_HUD"   , "RGB_SAD"   , "RGB_VAD"   , "XXXXXXX"   , "XXXXXXX"   , "XXXXXXX"   , "XXXXXXX"   , "KC_MPRV"   , "KC_MPLY"   , "KC_MNXT"   , "XXXXXXX"   , "XXXXXXX"   ,
                                         "_______"   , "_______"   , "_______"   , "_______"   , "_______"   , "_______"   , "_______"   , "_______"   , "_______"   , "_______"
         ]
+    ],
+    "encoders": [
+        [ { "ccw": "KC_VOLD", "cw": "KC_VOLU"}, { "ccw": "KC_PGDN", "cw": "KC_PGUP" } ],
+        [ { "ccw": "KC_TRANSPARENT", "cw": "KC_TRANSPARENT"}, { "ccw": "KC_TRANSPARENT", "cw": "KC_TRANSPARENT" } ],
+        [ { "ccw": "KC_TRANSPARENT", "cw": "KC_TRANSPARENT"}, { "ccw": "KC_TRANSPARENT", "cw": "KC_TRANSPARENT" } ],
+        [ { "ccw": "KC_TRANSPARENT", "cw": "KC_TRANSPARENT"}, { "ccw": "KC_TRANSPARENT", "cw": "KC_TRANSPARENT" } ]
     ],
     "config": {
         "features": {
